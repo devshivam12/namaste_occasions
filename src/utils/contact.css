@@ -1,0 +1,70 @@
+.contact-container {
+  
+    display: flex;
+    justify-content: space-between; /* Aligning items to the left and right */
+    align-items: center;
+    max-width: 1200px; /* Limiting the width of the contact section */
+    margin: 1rem auto; /* Centering the contact section */
+    background: white;
+  }
+  
+  .contact-info {
+    flex: 1; /* Distributing space equally between contact info and form */
+    padding: 20px; /* Adding padding to both sides */
+    border-radius: 0; /* Setting border-radius to 0 */
+    font-size: 18px; /* Updated font size */
+    line-height: 2;
+  }
+
+  .contact-info h2 {
+    font-size: 45px; /* Have Questions font size */
+    font-weight: bold; /* Making it bold */
+  }
+  
+  .contact-info p {
+    font-size: 18px; /* Slogan font size */
+   
+  }
+  
+  .contact-form {
+    flex: 1; /* Distributing space equally between contact info and form */
+    padding: 60px; /* Adjusting padding to resize the form */
+    margin: 40px; /* Adjusting margin for spacing */
+    margin-top: 60px;
+    border-radius: 10px; /* Setting border-radius to 0 */
+    background-color: #fff7f6; /* Adding background color */
+  }
+  
+  .contact-form form {
+    display: flex; /* Centering the form */
+    flex-direction: column; /* Setting flex-direction to column */
+    align-items: center; /* Centering the content horizontally */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%; /* Setting width to 100% */
+  }
+  
+  .form-group input, .form-group textarea {
+    width: calc(100% - 20px); /* Calculating width dynamically */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    text-align: center; /* Aligning placeholder text to center */
+    font-size: 18px; /* Updated font size */
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ee6043;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Updated font size */
+  }

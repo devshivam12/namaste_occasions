@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="DIY.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-2qFwvUBcBw8XhXrGRp7SI+R8z4M5yM6IFq2MW3uWZsR4rYXW5c8fiEhfuDG/+UGr3lGfQz8X3fVvQFQIueXx3w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="https://kit.fontawesome.com/6070c4cd87.js" crossorigin="anonymous"></script>
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <div class="nav-left">
+        <button class="nav-button" onclick="index()">Home</button>
+        <div class="dropdown">
+          <button class="dropbtn">Personal events</button>
+          <div class="dropdown-content">
+            <a href="birthday.html">birthday</a>
+            <a href="Engagement.html">engagement</a>
+            <a href="marriage.html">marriage</a>
+            <a href="mile.html">milestone</a>
+          </div>
+        </div>
+        <button class="nav-button2" onclick="bookevent()">Book events</button>
+      </div>
+      <div class="logo"><img src="Namaste logo.png"></div>
+      <div class="nav-right">
+        <button class="nav-button" onclick="diy()">DIY-kit</button>
+        <a href="join us.html"><button class="nav-button" onclick="joinus()">Join us</button></a>
+        <button class="nav-button" onclick="contact()">Contact</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main Section -->
+
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="DIY1.png" style="width: 100%" />
+
+    </div>
+    <div class="mySlides fade">
+      <img src="DIY2.jpeg" style="width: 100%" />
+
+    </div>
+    <div class="mySlides fade">
+      <img src="DIY3.jpeg" style="width: 100%" />
+
+    </div>
+    <div class="mySlides fade">
+      <img src="DIY4.jpeg" style="width: 100%" />
+
+    </div>
+    <div class="mySlides fade">
+      <img src="DIY5.jpeg" style="width: 100%" />
+
+    </div>
+
+  </div>
+
+  <!-- The dots/circles -->
+  <div class="text-align" style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <!-- masg -->
+  <div class="buy-message">
+    <p>! Let's Buy for your Loved Ones !</p>
+</div>
+  <!-- Buy kit  -->
+ 
+<div class="cardslide">
+  <div class="wrapper">
+    <ul class="carousel">
+        <li class="card">
+            <div class="img"><img src="DIY1.png" alt="" draggable="false"> </div>
+            <div class="info">
+                <h1>Birthday kit</h1>
+                <p class="price">1999 ₹</p>
+                <p>Unbox joy with our complete party kit featuring banners, balloons, tableware, and more. Elevate
+                    your
+                    celebration effortlessly with Namaste Occasions.</p>
+                <button class="btn">Buy</button>
+            </div>
+        </li>
+        <li class="card">
+            <div class="img"><img src="DIY2.jpeg" alt="" draggable="false"> </div>
+            <div class="info">
+                <h1>Engagement kit</h1>
+                <p class="price">2999 ₹</p>
+                <p>Enhance your engagement affair with our curated essentials, including banners, props, and décor.
+                    Trust Namaste
+                    Occasions for seamless celebration planning.</p>
+                <button class="btn">Buy</button>
+            </div>
+        </li>
+        <li class="card">
+            <div class="img"><img src="DIY3.jpeg" alt="" draggable="false"> </div>
+            <div class="info">
+                <h1>Haldi kit</h1>
+                <p class="price">4999 ₹</p>
+                <p>Elevate your Haldi ceremony with our comprehensive essentials, from turmeric supplies to floral
+                    décor.Trust
+                    Namaste Occasions for seamless celebration planning.</p>
+                <button class="btn">Buy</button>
+            </div>
+        </li>
+        <li class="card">
+            <div class="img"><img src="DIY4.jpeg" alt="" draggable="false"> </div>
+            <div class="info">
+                <h1>Mahendi kit</h1>
+                <p class="price">4999 ₹</p>
+                <p>Get ready for Mehendi festivities with our curated kit, featuring henna supplies, decorative
+                    bowls, and floral
+                    décor. Let Namaste Occasions add magic to your celebration.</p>
+                <button class="btn">Buy</button>
+            </div>
+        </li>
+        <li class="card">
+            <div class="img"><img src="DIY5.jpeg" alt="" draggable="false"> </div>
+            <div class="info">
+                <h1>Anniversary kit</h1>
+                <p class="price">999 ₹</p>
+                <p>"Enhance your anniversary with our special kit, featuring banners, photo frames,
+                    and romantic décor. Let Namaste Occasions add charm to your celebration."</p>
+                <button class="btn">Buy</button>
+            </div>
+        </li>
+        <li class="card">
+            <div class="img"><img src="DIY2.jpeg" alt="" draggable="false"> </div>
+            <div class="info">
+                <h1>Surprize kit</h1>
+                <p class="price">999 ₹</p>
+                <p>"Enhance your anniversary with our special kit, featuring banners, photo frames,
+                    and romantic décor. Let Namaste Occasions add charm to your celebration."</p>
+                <button class="btn">Buy</button>
+            </div>
+        </li>
+    </ul>
+</div>
+</div>
+
+  <footer>
+    <div class="footermain">
+
+      <div class="footersub2">
+        <h1>Subscribe to Newsletter</h1>
+        <p>Enter your email address to register to our newsletter subscription!</p>
+        <div class="footersub3">
+          <input class="subscribeemail" type="email" placeholder="Enter Email Address">
+          <button class="subscribe">Subscribe</button>
+        </div>
+
+      </div>
+      <div class="social-icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+      </div>
+      <div class="horizontal-line">
+        <span></span>
+      </div>
+      <div class="connect">
+        @2024NamsteOccasions.com
+      </div>
+    </div>
+
+  </footer>
+  <!-- <script src="https://kit.fontawesome.com/6070c4cd87.js" crossorigin="anonymous"></script> -->
+  <script src="DIY.js"></script> 
+</body>
+</html>

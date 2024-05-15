@@ -1,0 +1,293 @@
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+/* Navbar Container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar Left and Right */
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-family: 'montserrat' 'sans-serif';
+  font-style:none;
+  font-size: 18px; /* Updated font size */
+  width: 100px;
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+
+.nav-button2 {
+  background-color: transparent;
+  color: BLACK;
+  border: none;
+  font-family: 'montserrat' 'sans-serif';
+  font-style:none;
+  font-size: 18px; /* Updated font size */
+  width: 150px;
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-family: 'montserrat' 'sans-serif';
+  font-style:none;
+  font-size: 18px; /* Updated font size */
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family: 'montserrat' 'sans-serif';
+  font-style:none;
+  font-size: 18px; /* Updated font size */
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.nav-button:hover{
+  color: #ee6043;
+}
+.nav-button2:hover{
+  color: #ee6043;
+}
+.dropbtn:hover{
+  color: #ee6043;
+}
+.dropdown-content a:hover{
+  color: #ee6043;
+}
+/* Logo Image */
+.logo img {
+  width: 170px;
+  height: 60px;
+  background: transparent;
+  border-radius: 20%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Contact part */
+.contact-container {
+  display: flex;
+  justify-content: space-between; /* Aligning items to the left and right */
+  margin-top: 20px; /* Added margin-top to separate from the navbar */
+  max-width: 1200px; /* Limiting the width of the contact section */
+  margin: 0 auto; /* Centering the contact section */
+}
+
+.contact-info {
+  flex: 1; /* Distributing space equally between contact info and form */
+  padding: 20px; /* Adding padding to both sides */
+  border-radius: 0; /* Setting border-radius to 0 */
+  font-size: 18px; /* Updated font size */
+}
+
+.contact-info h2 {
+  font-size: 45px; /* Have Questions font size */
+  font-weight: bold; /* Making it bold */
+}
+
+.contact-info p {
+  font-size: 18px; /* Slogan font size */
+ 
+}
+
+.contact-form {
+  flex: 1; /* Distributing space equally between contact info and form */
+  padding: 60px; /* Adjusting padding to resize the form */
+  margin: 40px; /* Adjusting margin for spacing */
+  margin-top: 60px;
+  border-radius: 10px; /* Setting border-radius to 0 */
+  background-color: #fff7f6; /* Adding background color */
+}
+
+.contact-form form {
+  display: flex; /* Centering the form */
+  flex-direction: column; /* Setting flex-direction to column */
+  align-items: center; /* Centering the content horizontally */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%; /* Setting width to 100% */
+}
+
+.form-group input, .form-group textarea {
+  width: calc(100% - 20px); /* Calculating width dynamically */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  text-align: center; /* Aligning placeholder text to center */
+  font-size: 18px; /* Updated font size */
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ee6043;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; /* Updated font size */
+}
+
+/* Adjusting styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .contact-container {
+      flex-direction: column; /* Changing flex direction to column for smaller screens */
+  }
+
+  .contact-info, .contact-form {
+      margin: 0;
+      width: 100%;
+      border-radius: 0;
+  }
+}
+.footermain{
+  width: 100%;
+  height: 350px;
+  /* display: flex; */
+  margin: 0 auto;
+  background-color: #fff7f6;
+  /* font-size: larger; */
+}
+
+.footermain p{
+  color: #9e9e9e;
+  margin-left: 10px;
+}
+
+.footersub2{
+  font-size: larger;
+  width: 50%;
+  /* position: relative;
+  left: 30%; */
+  margin: 0 auto;
+  text-align: center;
+  /* margin-left: 10px; */
+  padding: 20px;
+}
+
+.footersub3{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.subscribeemail{
+  width: 70%;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.subscribe{
+  width: 20%;
+  margin-left: 10px;
+  background-color: #fff7f6;
+  color: black;
+  box-shadow: #fff7f6;
+  border-radius: 10px;
+}
+
+.subscribe:hover{
+  background-color: #ee6043;
+  color: #fff7f6;
+}
+
+.connect{
+  width: 99%;
+  text-align: center;
+  margin: 20px;
+  font-size: larger;
+}
+
+.social-icons {
+  font-size: 24px; /* Adjust the font size as needed */
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.social-icons i {
+  margin-right: 10px; 
+}
+
+.fa-whatsapp:hover{
+  color: #05574e;
+}
+
+.fa-twitter:hover{
+  color: #1DA1F2;
+}
+
+.fa-instagram:hover{
+  color:  #ee2a7b;
+}
+
+.fa-facebook:hover{
+  color:#316FF6
+}
+
+/* Adjustments for the content below the navbar */
+.content {
+  padding-top: 60px; /* Adjust this value to match the height of your navbar */
+}
+

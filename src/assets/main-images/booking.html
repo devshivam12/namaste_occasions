@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/6070c4cd87.js" crossorigin="anonymous"></script>
+    <nav class="navbar" >
+        <div class="navbar-container">
+          <div class="nav-left">
+            <button class="nav-button" onclick="index()">Home</button>
+            <div class="dropdown">
+              <button class="dropbtn">Personal events</button>
+              <div class="dropdown-content">
+                <a href="birthday.html">birthday</a>
+                <a href="Engagement.html">engagement</a>
+                <a href="marriage.html">marriage</a>
+                <a href="mile.html">milestone</a>
+              </div>
+            </div>
+            <button class="nav-button2">Book events</button>
+          </div>
+          <div class="logo"><img src="Namaste logo.pnG"></div>
+          <div class="nav-right">
+            <button class="nav-button" onclick="diy()">DIY-kit</button>
+            <a href="join us.html"><button class="nav-button" onclick="joinus()">Join us</button></a>
+            <button class="nav-button" onclick="contact()">Contact</button>
+          </div>
+        </div>
+    </nav>
+    <!--  -->
+    <form>
+        <div class="pdetails">
+            <h3>Personal Details</h3>
+            <hr>
+            <!-- <label class="lb" for="fname">Name</label><br> -->
+            <input class="in" type="text" name="" id="" placeholder="Full Name"><br>
+            <input class="in" type="text" placeholder="State">
+            <input class="in" type="text" placeholder="City">
+            <!-- <label class="lb" for="email">Email</label><br> -->
+            <input class="in" type="email" placeholder="Email"><br>
+            <!-- <label class="lb" for="phone">Phone Number</label><br> -->
+            <input class="in" type="tel" placeholder="Contact Number">
+            <!-- <hr> -->
+            
+            <h3>Event Information</h3>
+            <hr>
+            <!-- <label class="lb" for="type">TEvent</label> -->
+            <select class="select" name="event_type" id="event_type" placeholder="select">
+              <option value="select">Select a event</option>
+              <option value="wedding">Wedding</option>
+              <option value="birthday">Birthday Party/Celebration</option>
+              <option value="engagement">Engagement</option>
+              <option value="Baby shower">Baby Shower</option>
+              <option value="milestone">Milestone</option>
+            </select><br>
+            <!-- <label class="lb" for="theam">Theam</label><br> -->
+            <input class="in" type="text" placeholder="Theam"><br>
+            <!-- <label class="lb" for="Extra">Your Thougths</label><br> -->
+            <textarea class="in" name="" id="" cols="30" rows="10" placeholder="Your Thougths"></textarea>
+            <!-- <hr> -->
+            <h3>Booking Details</h3>
+            <hr>
+            <label class="lb" for="">Start date:</label>
+            <input type="date" class="date" placeholder="Date of Event">
+            <label for="" class="lb">End Date:</label>
+            <input  type="date" class="date"  ><br>
+            <input class="in" type="text" placeholder="Functions Details">
+        </div>
+        
+    </form>
+    <!--  -->
+    <footer>
+        <div class="footermain">
+          
+          <div class="footersub2">
+            <h1>Subscribe to Newsletter</h1>
+            <p>Enter your email address to register to our newsletter subscription!</p>
+              <div class="footersub3">
+                  <input class="subscribeemail" type="email" placeholder="Enter Email Address">
+                  <button class="subscribe">Subscribe</button>
+              </div>
+  
+          </div>
+          <div class="social-icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+          </div>
+          <div class="horizontal-line">
+            <span></span>
+          </div>
+          <div class="connect">
+            @2024NamsteOccasions.com
+          </div>
+        </div>
+       
+      </footer>
+
+</body>
+<script src="booking.js"></script>
+</html>

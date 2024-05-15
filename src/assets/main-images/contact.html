@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Page</title>
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/6070c4cd87.js" crossorigin="anonymous"></script>
+    <!-- nave bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="nav-left">
+            <button class="nav-button" onclick="index()">Home</button>
+            <div class="dropdown">
+              <button class="dropbtn">Personal events</button>
+              <div class="dropdown-content">
+                <a href="birthday.html">birthday</a>
+                <a href="Engagement.html">engagement</a>
+                <a href="marriage.html">marriage</a>
+                <a href="mile.html">milestone</a>
+              </div>
+            </div>
+            <button class="nav-button2" onclick="bookevent()">Book events</button>
+          </div>
+          <div class="logo"><img src="Namaste logo.png"></div>
+          <div class="nav-right">
+            <button class="nav-button" onclick="diy()">DIY-kit</button>
+            <a href="join us.html"><button class="nav-button" onclick="joinus()">Join us</button></a>
+            <button class="nav-button" onclick="contact()">Contact</button>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- contact part -->
+      
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Have Questions?</h2>
+            <p>Please feel free to call or email us, or use our 
+              contact form to get in touch with us. We look 
+              forward to hearing from you!</p>
+            <p><strong>Emergency? Call Us:</strong></p> 
+            <p>+1234567890</p>
+            <p><strong>Send Us Mail:</strong> <p>
+            <p>info@example.com</p>
+            <p><strong>Find The company</strong></p>
+            <p>titaniuam city center block-A/811 prahlad nagar ahmedabad</p>
+            <image></image>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footermain">
+        
+        <div class="footersub2">
+          <h1>Subscribe to Newsletter</h1>
+          <p>Enter your email address to register to our newsletter subscription!</p>
+            <div class="footersub3">
+                <input class="subscribeemail" type="email" placeholder="Enter Email Address">
+                <button class="subscribe">Subscribe</button>
+            </div>
+
+        </div>
+        <div class="social-icons">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+        </div>
+        <div class="horizontal-line">
+          <span></span>
+        </div>
+        <div class="connect">
+          @2024NamsteOccasions.com
+        </div>
+      </div>
+     
+    </footer>
+</body>
+<script src="contact.js"></script>
+</html>
